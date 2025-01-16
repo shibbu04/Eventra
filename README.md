@@ -3,7 +3,7 @@
 EventHub is a modern, feature-rich platform designed to simplify event creation, management, and participation. Built using cutting-edge technologies, EventHub offers a seamless experience for both organizers and attendees.
 
 🔗 **Live Demo**: [EventHub](https://event-hubz.vercel.app/)\
-🌍 **GitHub Repository**: [EventHub on GitHub](https://github.com/shibbu04/EventHub)
+🌍 **GitHub Repository**: [EventHub on GitHub](https://github.com/shibbu04/Eventra)
 
 ---
 
@@ -62,10 +62,11 @@ EventHub is a modern, feature-rich platform designed to simplify event creation,
 ## 📂 Project Structure
 
 ```plaintext
-eventhub/
+Eventra/
 ├── frontend 
 │   ├── src/                 # Frontend source files
-│        ├── components/         # Reusable React components
+│        ├── components/
+│        ├── config/              # Reusable React components
 │        ├── pages/              # Page components
 │        │   └── Dashboard/      # Dashboard-related pages
 │        └── main.tsx            # Application entry point
@@ -88,8 +89,8 @@ eventhub/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/shibbu04/EventHub.git
-   cd EventHub
+   git clone https://github.com/shibbu04/Eventra.git
+   cd Eventra
    ```
 
 2. Install dependencies for both frontend and backend:
@@ -112,6 +113,10 @@ eventhub/
      JWT_SECRET=your_jwt_secret_key
      FRONTEND_URL=http://localhost:5173
      PORT=5000
+     ```
+        - Create a `.env` file in the `frontend` directory with the following variables:
+     ```env
+     VITE_API_URL=http://localhost:5000
      ```
 
 4. Start the development servers:
