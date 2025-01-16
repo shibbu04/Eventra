@@ -1,9 +1,9 @@
-# 🌟 EventHub - Your Ultimate Event Management Platform
+# 🌟 Eventra - Your Ultimate Event Management Platform
 
 EventHub is a modern, feature-rich platform designed to simplify event creation, management, and participation. Built using cutting-edge technologies, EventHub offers a seamless experience for both organizers and attendees.
 
-🔗 **Live Demo**: [EventHub](https://event-hubz.vercel.app/)\
-🌍 **GitHub Repository**: [EventHub on GitHub](https://github.com/shibbu04/Eventra)
+🔗 **Live Demo**: [Eventra](https://eventra.vercel.app/)\
+🌍 **GitHub Repository**: [Eventra on GitHub](https://github.com/shibbu04/Eventra)
 
 ---
 
